@@ -16,7 +16,8 @@ for example i use this as the launche options
 PULSE_LATENCY_MSEC=60 mangohud %command% $(randmapow2)
 ```
 #### Enjoy!
-
+## Example:
+![alt text](<github random ow2 backgroud.GIF>)
 
 
 [mangohud](https://github.com/flightlessmango/MangoHud)
