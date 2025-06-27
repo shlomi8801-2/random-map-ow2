@@ -17,7 +17,7 @@ PULSE_LATENCY_MSEC=60 mangohud %command% $(randmapow2)
 ```
 #### Enjoy!
 ## Example:
-![alt text](<github random ow2 backgroud.GIF>)
+![alt text](https://github.com/shlomi8801-2/random-map-ow2/blob/main/github%20random%20ow2%20backgroud.GIF)
 
 
 [mangohud](https://github.com/flightlessmango/MangoHud)
