@@ -4,7 +4,7 @@ add it in launch arguments of overwatch 2 in steam or anything that can run it a
 ```
 #download the file randmapow2
 chmod +x ./randmapow2
-sudo cp /randmapow2 /usr/bin/randmapow2
+sudo cp ./randmapow2 /usr/bin/randmapow2
 ```
 ### in steam:
 goto ``overwatch 2`` right click on it then ``Properties... -> General -> LAUNCH OPTIONS`` and paste this inside
