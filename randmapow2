@@ -1,0 +1,9 @@
+#!/bin/bash
+#random map for overwatch command argument linux
+#credits:
+#https://stackoverflow.com/questions/10586153/how-to-split-a-string-into-an-array-in-bash
+#https://steamcommunity.com/sharedfiles/filedetails/?id=3469709557
+#https://collectingwisdom.com/bash-select-random-element-from-array/
+maps="0x0800000000000E77,0x0800000000000EFB,0x0800000000000D77,0x0800000000000B6B,0x0800000000000BCE,0x0800000000000864,0x0800000000001289,0x0800000000001378,0x0800000000000DAD"
+IFS=', ' read -r -a array <<< "$maps" #splits and set each item to "array" variable
+echo "--lobbyMap=$(printf "%s\n" "${array[@]}" | shuf -n 1)" #print f is for formatting output
